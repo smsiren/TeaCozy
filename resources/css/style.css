@@ -63,6 +63,28 @@ nav span {
 /*Tea of the Month*/
 
 .tea-of-month-container {
-  display: flex;
+  display: inline-block;
   justify-content: center;
+}
+
+.tea-of-month-text {
+  width: 1000px;
+}
+
+.tea-of-month-image {
+  background-color: aqua;
+  border: 2px yellow solid;
+
+  height: 200px;
+  width: 300px;
+}
+
+.tea-of-month-image img {
+  height: 200px;
+  width: 300px;
+}
+
+p.#berry-blitz {
+  position: absolute;
+  bottom: 10px;
 }
