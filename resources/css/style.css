@@ -1,0 +1,68 @@
+/*Universal*/
+
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+/*Header*/
+
+header {
+  position: fixed;
+  z-index: 3;
+  height: 69px;
+  width: 100%;
+  color: seashell;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+nav {
+  float: right;
+  margin: 20px 10px;
+}
+
+nav span {
+  padding: 10px
+}
+
+.logo img {
+  float: left;
+  height: 50px;
+  margin: 10px;
+}
+
+/*Mission*/
+
+.mission-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mission-image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.mission-text {
+  background-color: black;
+  position: absolute;
+  top: 350px;
+  width: 1200px;
+}
+
+/*Tea of the Month*/
+
+.tea-of-month-container {
+  display: flex;
+  justify-content: center;
+}
